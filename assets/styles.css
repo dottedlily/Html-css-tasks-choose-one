@@ -1,0 +1,89 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.frame {
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.content_frame {
+    background-color: white;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    justify-content: center;
+    display: flex;
+    width: 25%;
+    height: 55%;
+}
+
+.container {
+    padding: 0% 10%;
+    width: 100%;
+}
+
+.route_info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+    margin: 10% 0%;
+}
+
+.iata_code {
+    font-size: 3.3em;
+    color: rgb(9, 111, 214);
+    font-family: 'anton', sans-serif;
+    font-weight: 900;
+    margin: 0;
+}
+
+.full_city_name,
+.info_category {
+    margin: 0;
+    font-family: 'anton', sans-serif;
+    color: rgb(166, 166, 166);
+    width: 100%;
+}
+
+.dash_illustration {
+    background-color: rgb(184, 213, 242);
+    margin: 44% 36%;
+}
+
+.flight_gate_seat_info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.info_block {
+    margin: 0% 0% 18% 0;
+}
+
+.info_itself {
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.passenger_class_departure_qr_info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.passenger_class_departure_container {
+    height: 100%;
+}
+
+.qr_code {
+    width: 100%;
+}
